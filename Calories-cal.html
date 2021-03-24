@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" <style>
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Calories Calculator</h1>
+        <div id="calculator">
+            <form>
+                <label for="EatingFood">What are you eating?</label><br>
+                <input type="text" id="EatingFood" placeholder="bread"> <br>
+                <label for="ServingUnit">How much is a Serving</label><br>
+                <input type="text" id="ServingUnit" placeholder="100g"> <br>
+                <label for="CaloperServ">Calories per Serving</label><br>
+                <input type="text" id="CaloperServ" placeholder="245"><br>
+                <label for="NewServing">How many serving of this food?</label><br>
+                <select id="NewServing1">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select id="NewServing2">
+                    <option value="0.00">0</option>
+                    <option value="0.25">1/4</option>
+                    <option value="0.33">1/3</option>
+                    <option value="0.50">1/2</option>
+                    <option value="0.66">2/3</option>
+                    <option value="0.75">3/4</option>
+                </select>
+
+            </form>
+            <button type="button" id="Calories">Calculate!</button>
+        </div>
+        <!--calculator end-->
+        <div id="CaloOut">
+            <p>The Calories new taken is: <span id="NewTaken">0</span></p>
+            <p>Total Calories taken: <span id="CaloTaken">0</span></p>
+        </div>
+    </div>
+    <!--container end-->
+    <script type="text/javascript" src="CaloCalc.js"></script>
+
+</body>
+
+</html>

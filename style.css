@@ -1,0 +1,96 @@
+body {
+    background: rgba(0, 128, 0, 0.26);
+}
+
+#container {
+    height: 500px;
+    width: 400px;
+    margin: 150px auto;
+    background: rgba(250, 248, 237, 0.952);
+    border-radius: 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+h1 {
+    background: rgb(82, 35, 2);
+    color: white;
+    margin: 0;
+    padding: 20px 20px;
+    font-size: 30px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#calculator {
+    margin: 20px 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    padding-left: 20px;
+}
+
+#EatingFood {
+    font-size: 20px;
+}
+
+#ServingUnit {
+    font-size: 20px;
+}
+
+#CaloperServ {
+    font-size: 20px;
+}
+
+#NewServing1 {
+    font-size: 20px;
+}
+
+#NewServing2 {
+    font-size: 20px;
+}
+
+button {
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+    background: rgb(117, 17, 37);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: rgba(250, 248, 237, 0.952);
+}
+
+button:hover {
+    background: royalblue;
+}
+
+button:active {
+    position: relative;
+}
+
+#CaloOut {
+    background: sandybrown;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#NewTaken {
+    font-size: 30px;
+    color: rgb(72, 11, 151);
+}
+
+#CaloTaken {
+    font-size: 30px;
+    color: rgb(72, 11, 151);
+}
