@@ -2,9 +2,7 @@
 <html>
 
 <head>
-    <title>Menu With JQuery</title>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="src/inputhistory.js"></script>
+    <title>Calorise Caculator</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -14,13 +12,13 @@
         <div id="calculator">
             <label for="selFruit">Which fruit you like</label><br>
             <select id="selFruit">
-                <option value="--">choose fruits</option>
-                <option value="0">apple</option>
-                <option value="1">avocado</option>
-                <option value="2">lemon</option>
-                <option value="3">peach</option>
-                <option value="4">cherries</option>
-            </select>
+                <option value="FruitArray">choose fruits</option>
+                <option value="Apple">Apple</option>
+                <option value="Avocado">Avocado</option>
+                <option value="Lemon">Lemon</option>
+                <option value="Peach">Peach</option>
+                <option value="Cherries">Cherries</option>
+             </select>
             <br>You choose:
             <div id="selectedFruit"></div>
             <br>
@@ -30,7 +28,8 @@
                 <button type="button" id="Estimate">Estimate</button>
             </form>
             <div>
-                <p id="EstTaken">Estimate Calories</p>
+                Estimate Calories:
+                <div id="EstTaken"></div>
 
                 <button type="button" id="Confirm">Confirm</button> <br />
                 <p id="HistorySel"></p>
